@@ -30,11 +30,19 @@
 import {
   XHeader
 } from 'vux'
+import {getSingleUserByOpenid} from '@/api/modules/users'
 
 export default {
   name: 'test',
   components: {
     XHeader
+  },
+
+  mounted () {
+    let openid = 'oA_k2w6oazzv_cl1h-6myPCdj67M'
+    getSingleUserByOpenid(openid).then((res) => {
+      console.log(res)
+    })
   }
 }
 </script>
