@@ -1,0 +1,19 @@
+.click_btn {
+  height: 40px;
+  width: 80%;
+  margin: 3px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.my_button {
+  width: 120px;
+  height: 40px;
+  border: none;
+  color: white;
+  background: #1abc9c;
+  text-align: center;
+  outline: none;
+  border-radius: 5px;
+  margin-left: 15px;
+}
